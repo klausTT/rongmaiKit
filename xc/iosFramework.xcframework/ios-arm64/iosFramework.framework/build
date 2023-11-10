@@ -1,0 +1,25 @@
+xcodebuild archive \
+-workspace iosFramework.xcworkspace \
+-scheme iosFramework \
+-configuration Release \
+-destination 'generic/platform=iOS' \
+-archivePath './build/iosFramework.ios.xcarchive' \
+SKIP_INSTALL=NO \
+BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+
+
+xcodebuild archive \
+-workspace iosFramework.xcworkspace \
+-scheme iosFramework \
+-configuration Release \
+-destination 'generic/platform=iOS Simulator' \
+-archivePath './build/iosFramework.iphonesimulator.xcarchive' \
+SKIP_INSTALL=NO \
+BUILD_LIBRARIES_FOR_DISTRIBUTION=YES
+
+
+
+rm -rf ~/Library/Developer/Xcode/DerivedData/*
+rm -rf Pods Podfile.lock build .DS_Store
+pod cache clean --all
+

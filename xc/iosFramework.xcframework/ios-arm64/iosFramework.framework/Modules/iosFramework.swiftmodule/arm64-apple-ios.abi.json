@@ -1,0 +1,131 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "React",
+        "printedName": "React",
+        "declKind": "Import",
+        "moduleName": "iosFramework"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "MySdkClient",
+        "printedName": "MySdkClient",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MySdkClient",
+                "printedName": "iosFramework.MySdkClient",
+                "usr": "s:12iosFramework11MySdkClientC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:12iosFramework11MySdkClientCACycfc",
+            "mangledName": "$s12iosFramework11MySdkClientCACycfc",
+            "moduleName": "iosFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "getView",
+            "printedName": "getView()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "UIView",
+                "printedName": "UIKit.UIView",
+                "usr": "c:objc(cs)UIView"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:12iosFramework11MySdkClientC7getViewSo6UIViewCyF",
+            "mangledName": "$s12iosFramework11MySdkClientC7getViewSo6UIViewCyF",
+            "moduleName": "iosFramework",
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:12iosFramework11MySdkClientC",
+        "mangledName": "$s12iosFramework11MySdkClientC",
+        "moduleName": "iosFramework",
+        "declAttributes": [
+          "AccessControl"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": [
+    {
+      "filePath": "\/Users\/dongtaowu\/Desktop\/AwesomeProject\/iosFramework\/iosFramework\/ReactTest.swift",
+      "kind": "StringLiteral",
+      "offset": 129,
+      "length": 16,
+      "value": "\"AwesomeProject\""
+    },
+    {
+      "filePath": "\/Users\/dongtaowu\/Desktop\/AwesomeProject\/iosFramework\/iosFramework\/ReactTest.swift",
+      "kind": "StringLiteral",
+      "offset": 560,
+      "length": 23,
+      "value": "\"com.wudt.iosFramework\""
+    },
+    {
+      "filePath": "\/Users\/dongtaowu\/Desktop\/AwesomeProject\/iosFramework\/iosFramework\/ReactTest.swift",
+      "kind": "StringLiteral",
+      "offset": 604,
+      "length": 4,
+      "value": "\"js\""
+    },
+    {
+      "filePath": "\/Users\/dongtaowu\/Desktop\/AwesomeProject\/iosFramework\/iosFramework\/ReactTest.swift",
+      "kind": "StringLiteral",
+      "offset": 618,
+      "length": 8,
+      "value": "\"bundle\""
+    },
+    {
+      "filePath": "\/Users\/dongtaowu\/Desktop\/AwesomeProject\/iosFramework\/iosFramework\/ReactTest.swift",
+      "kind": "StringLiteral",
+      "offset": 666,
+      "length": 49,
+      "value": "\"http:\/\/localhost:8081\/index.bundle?platform=ios\""
+    },
+    {
+      "filePath": "\/Users\/dongtaowu\/Desktop\/AwesomeProject\/iosFramework\/iosFramework\/ReactTest.swift",
+      "kind": "StringLiteral",
+      "offset": 854,
+      "length": 6,
+      "value": "\"main\""
+    },
+    {
+      "filePath": "\/Users\/dongtaowu\/Desktop\/AwesomeProject\/iosFramework\/iosFramework\/ReactTest.swift",
+      "kind": "StringLiteral",
+      "offset": 877,
+      "length": 10,
+      "value": "\"jsbundle\""
+    },
+    {
+      "filePath": "\/Users\/dongtaowu\/Desktop\/AwesomeProject\/iosFramework\/iosFramework\/ReactTest.swift",
+      "kind": "StringLiteral",
+      "offset": 927,
+      "length": 49,
+      "value": "\"http:\/\/localhost:8081\/index.bundle?platform=ios\""
+    }
+  ]
+}
